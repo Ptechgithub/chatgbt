@@ -188,9 +188,11 @@ green "Chatgpt-TG uninstall complete! "
 }
 
 start_menu(){
-clear
-bblue "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
-white "甬哥Github项目  ：github.com/yonggekkk"
+green "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"           
+echo -e "${yellow}▒▐█▀█▒█▀█▀█░▐█▀▀░▐█▀█░▐█░▐█░"
+echo -e "${green}▒▐█▄█░░▒█░░░▐█▀▀░▐█──░▐████─"
+echo -e "${red}▒▐█░░░▒▄█▄░░▐█▄▄░▐█▄█░▐█░▐█░"
+green "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
 red "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 green " 1. Install Chatgpt - TG Chat" 
 green " 2. Uninstall Chatgpt-TG Chat"
@@ -214,3 +216,5 @@ if [ $# == 0 ]; then
 start
 start_menu
 fi
+
+write a script like this script
