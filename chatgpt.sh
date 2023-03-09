@@ -217,4 +217,3 @@ start
 start_menu
 fi
 
-write a script like this script
